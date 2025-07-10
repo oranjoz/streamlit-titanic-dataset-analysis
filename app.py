@@ -18,7 +18,7 @@ st.subheader("Raw Titanic Dataset")
 st.dataframe(df)
 
 # Basic stats
-st.subheader("Basic Dataset Information and Statistics")
+st.subheader("Basic Dataset Information")
 st.write("Shape of dataset:", df.shape)
 st.write("Column types:")
 st.write(df.dtypes)
